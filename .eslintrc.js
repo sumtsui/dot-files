@@ -4,20 +4,20 @@ module.exports = {
     browser: true,
     es2020: true,
     node: true,
-    jest: true
+    jest: true,
   },
   parserOptions: {
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   plugins: ['react'],
   reportUnusedDisableDirectives: true,
   ignorePatterns: ['build/', 'node_modules/'],
   root: true,
   rules: {
-    'indent': ['error', 2],
+    'indent': ['error', 2, { ignoredNodes: ['TemplateLiteral > *'] }],
     'keyword-spacing': 2,
     'no-unused-vars': 'warn',
     'quote-props': ['error', 'consistent-as-needed'],
@@ -32,10 +32,10 @@ module.exports = {
       {
         allowTaggedTemplates: true,
         allowTernary: true,
-        allowShortCircuit: true
-      }
+        allowShortCircuit: true,
+      },
     ],
     'no-console': 0,
-    'react/prop-types': 0
-  }
+    'react/prop-types': 0,
+  },
 };
