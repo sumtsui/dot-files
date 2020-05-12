@@ -69,5 +69,6 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.colorTheme": "Material Theme High Contrast"
+    "workbench.colorTheme": "Material Theme High Contrast",
+    "terminal.integrated.cursorBlinking": true
 }
