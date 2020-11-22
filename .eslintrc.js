@@ -1,11 +1,18 @@
 module.exports = {
-  extends: 'eslint:recommended',
+  extends: ['eslint:recommended', 'plugin:react/recommended'],
   env: {
-    node: true,
     browser: true,
     es2020: true,
+    node: true,
+    jest: true,
   },
-  reportUnusedDisableDirectives: true,
+  parserOptions: {
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  plugins: ['react'],
   ignorePatterns: ['build/', 'node_modules/'],
   root: true,
   rules: {
@@ -27,6 +34,7 @@ module.exports = {
         allowShortCircuit: true,
       },
     ],
-    'no-console': 0
+    'no-console': 0,
+    'react/prop-types': 0,
   },
 };
