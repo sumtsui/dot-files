@@ -256,5 +256,13 @@
   {
     "key": "shift+cmd+i",
     "command": "search.action.focusSearchList"
+  },
+  {
+    "key": "shift+w",
+    "command": "workbench.action.switchWindow"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.switchWindow"
   }
 ]
