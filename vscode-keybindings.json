@@ -1,3 +1,4 @@
+// Place your key bindings in this file to overwrite the defaults
 [
   {
     "key": "cmd+1",
@@ -249,20 +250,16 @@
     "when": "explorerViewletFocus"
   },
   {
-    "key": "ctrl+d",
-    "command": "-deleteRight",
-    "when": "textInputFocus"
+    "key": "alt+cmd+/",
+    "command": "editor.action.openLink"
   },
   {
     "key": "shift+cmd+i",
     "command": "search.action.focusSearchList"
   },
   {
-    "key": "shift+w",
-    "command": "workbench.action.switchWindow"
-  },
-  {
-    "key": "ctrl+w",
-    "command": "-workbench.action.switchWindow"
+    "key": "ctrl+escape",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
   }
 ]

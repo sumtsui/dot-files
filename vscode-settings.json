@@ -12,7 +12,6 @@
     "javascript": "javascriptreact"
   },
   "editor.multiCursorModifier": "ctrlCmd",
-  "window.zoomLevel": 0,
   "editor.cursorBlinking": "phase",
   "editor.snippetSuggestions": "bottom",
   "editor.quickSuggestions": {
@@ -24,8 +23,7 @@
   "editor.parameterHints.enabled": false,
   "editor.acceptSuggestionOnEnter": "smart",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.cursorStyle": "line",
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "typescript.validate.enable": true,
   "javascript.validate.enable": true,
   "editor.formatOnPaste": true,
@@ -35,8 +33,9 @@
   "[json]": {},
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.enablePreview": false,
-  "editor.formatOnSave": true,
   "editor.suggestSelection": "recentlyUsed",
+  "vsintellicode.modify.editor.suggestSelection": "disabled",
+  "java.configuration.checkProjectSettingsExclusions": false,
   "gitlens.codeLens.enabled": false,
   "typescript.tsserver.log": "terse",
   "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
@@ -62,7 +61,12 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "java.semanticHighlighting.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "java.project.importOnFirstTimeStartup": "automatic",
+  "editor.formatOnSave": true,
   "terminal.integrated.cursorBlinking": true,
+  "window.zoomLevel": 1,
   "terminal.integrated.shell.osx": "/bin/zsh"
 }
