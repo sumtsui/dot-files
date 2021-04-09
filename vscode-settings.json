@@ -61,7 +61,7 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "workbench.colorTheme": "Abyss",
   "java.semanticHighlighting.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "java.project.importOnFirstTimeStartup": "automatic",
