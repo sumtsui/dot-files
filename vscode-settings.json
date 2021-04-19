@@ -61,12 +61,11 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Abyss",
+  "workbench.colorTheme": "Material Theme",
   "java.semanticHighlighting.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "java.project.importOnFirstTimeStartup": "automatic",
   "editor.formatOnSave": true,
   "terminal.integrated.cursorBlinking": true,
-  "window.zoomLevel": 1,
   "terminal.integrated.shell.osx": "/bin/zsh"
 }
