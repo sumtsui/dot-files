@@ -1,3 +1,4 @@
+// Place your key bindings in this file to overwrite the defaults
 [
   {
     "key": "cmd+1",
@@ -211,7 +212,7 @@
     "command": "-workbench.action.lastEditorInGroup"
   },
   {
-    "key": "ctrl+0",
+    "key": "alt+0",
     "command": "workbench.action.focusSideBar"
   },
   {
@@ -257,7 +258,12 @@
     "command": "search.action.focusSearchList"
   },
   {
-    "key": "ctrl+escape",
+    "key": "alt+`",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "alt+escape",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
@@ -267,7 +273,7 @@
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
   },
   {
-    "key": "alt+cmd+v",
+    "key": "cmd+;",
     "command": "markdown.showPreviewToSide",
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
   },
@@ -275,5 +281,20 @@
     "key": "cmd+k v",
     "command": "-markdown.showPreviewToSide",
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "alt+cmd+l",
+    "command": "-toggleSearchEditorContextLines",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "alt+cmd+l",
+    "command": "-toggleFindInSelection",
+    "when": "editorFocus"
   }
 ]
