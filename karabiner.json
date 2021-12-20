@@ -756,6 +756,16 @@
                   "key_code": "home"
                 }
               ]
+            },
+            {
+              "from": {
+                "key_code": "left_control"
+              },
+              "to": [
+                {
+                  "key_code": "home"
+                }
+              ]
             }
           ]
         },
