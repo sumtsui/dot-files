@@ -729,26 +729,6 @@
             },
             {
               "from": {
-                "key_code": "page_down"
-              },
-              "to": [
-                {
-                  "key_code": "home"
-                }
-              ]
-            },
-            {
-              "from": {
-                "key_code": "page_up"
-              },
-              "to": [
-                {
-                  "key_code": "home"
-                }
-              ]
-            },
-            {
-              "from": {
                 "key_code": "grave_accent_and_tilde"
               },
               "to": [
@@ -760,6 +740,26 @@
             {
               "from": {
                 "key_code": "left_control"
+              },
+              "to": [
+                {
+                  "key_code": "home"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "page_down"
+              },
+              "to": [
+                {
+                  "key_code": "play_or_pause"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "page_up"
               },
               "to": [
                 {
