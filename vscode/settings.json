@@ -1,7 +1,6 @@
 {
   "editor.wordWrap": "on",
   "editor.fontSize": 15,
-  "workbench.activityBar.visible": false,
   "workbench.colorCustomizations": {},
   "json.format.enable": false,
   "workbench.startupEditor": "newUntitledFile",
@@ -9,13 +8,13 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "emmet.includeLanguages": {
     "vue-html": "html",
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "wxml": "html"
   },
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.cursorBlinking": "phase",
-  "editor.snippetSuggestions": "bottom",
   "editor.quickSuggestions": {
-    "other": true,
+    "other": false,
     "comments": false,
     "strings": true
   },
@@ -33,13 +32,12 @@
   "[json]": {},
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.enablePreview": false,
-  "editor.suggestSelection": "recentlyUsed",
+  "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "disabled",
   "java.configuration.checkProjectSettingsExclusions": false,
   "gitlens.codeLens.enabled": false,
   "typescript.tsserver.log": "off",
   "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
-  "editor.hover.enabled": true,
   "prettier.requireConfig": true,
   "explorer.confirmDragAndDrop": false,
   "search.exclude": {
@@ -53,7 +51,10 @@
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "files.associations": {
-    "*.properties": "log"
+    "*.properties": "log",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -61,7 +62,6 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Material Theme",
   "java.semanticHighlighting.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "java.project.importOnFirstTimeStartup": "automatic",
@@ -69,25 +69,16 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "workbench.tips.enabled": false,
-  "editor.suggest.showFunctions": false,
-  "editor.suggest.showIssues": false,
-  "editor.suggest.showOperators": false,
-  "editor.suggest.showStructs": false,
-  "editor.suggest.showUnits": false,
-  "editor.suggest.showConstructors": false,
-  "editor.suggest.showColors": false,
-  "editor.suggest.showWords": false,
-  "editor.suggest.showModules": false,
-  "editor.suggest.showEvents": false,
-  "editor.suggest.showCustomcolors": false,
-  "editor.suggest.showUsers": false,
-  "editor.suggest.showValues": false,
   "npm-intellisense.recursivePackageJsonLookup": false,
-  "editor.suggest.showClasses": false,
-  "editor.suggest.showReferences": false,
-  "editor.suggest.showKeywords": false,
-  "editor.suggest.showInterfaces": false,
   "path-intellisense.autoSlashAfterDirectory": true,
-  "editor.suggest.showFiles": false,
-  "terminal.integrated.tabs.enabled": false
+  "terminal.integrated.tabs.enabled": false,
+  "workbench.colorTheme": "Aquatic blue",
+  "javascript.suggest.completeJSDocs": false,
+  "minapp-vscode.disableAutoConfig": true,
+  "editor.snippetSuggestions": "bottom",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "breadcrumbs.enabled": false,
+  "window.zoomLevel": -1,
+  "settingsSync.ignoredSettings": [],
+  "security.workspace.trust.untrustedFiles": "open"
 }
